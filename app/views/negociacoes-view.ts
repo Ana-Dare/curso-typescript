@@ -21,8 +21,8 @@ export class NegociacoesView {
             <tbody>
                 ${model.lista().map(Negociacao =>{
                     return `
-                        <tr>
-                            <td>?</td>
+                        <tr>    
+                            <td>${new Intl.DateTimeFormat().format(Negociacao.data)}</td> 
                             <td>${Negociacao.quantidade}</td>
                             <td>${Negociacao.valor}</td>
                         </tr>
