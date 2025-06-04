@@ -5,7 +5,8 @@
         "noEmitHelpers": true,
         "noImplicitAny": true,
         "removeComments": true, // Impede que comentários sejam compilados em arquivos js
-        "strictNullChecks": true // Implementa verificação de null nos elementos HTM
+        "strictNullChecks": true, // Implementa verificação de null nos elementos HTM
+        "experimentalDecorators": true
     },
     "include": [
         "app/**/*"]

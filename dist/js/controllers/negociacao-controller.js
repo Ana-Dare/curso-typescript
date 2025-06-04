@@ -1,3 +1,4 @@
+import { logarTempoDeExecucao } from "../decorators/logar-tempo-de-execucao.js";
 import { DiasDaSemana } from "../enuns/dias-da-semana.js";
 import { Negociacao } from "../models/negociacao.js";
 import { Negociacoes } from "../models/negociacoes.js";
@@ -38,3 +39,6 @@ export class Negociacaocontroller {
         this.mensagemView.update('Negociação adicionada com sucesso!');
     }
 }
+__decorate([
+    logarTempoDeExecucao()
+], Negociacaocontroller.prototype, "adiciona", null);
