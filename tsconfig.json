@@ -2,10 +2,10 @@
     "compilerOptions": {
         "outDir": "dist/js",
         "target": "ES6",
-        "noEmitHelpers": true,
+        "noEmitHelpers": false,
         "noImplicitAny": true,
-        "removeComments": true, // Impede que comentários sejam compilados em arquivos js
-        "strictNullChecks": true, // Implementa verificação de null nos elementos HTM
+        "removeComments": true, 
+        "strictNullChecks": true,
         "experimentalDecorators": true
     },
     "include": [
