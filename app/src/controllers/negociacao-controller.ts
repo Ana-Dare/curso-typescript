@@ -50,7 +50,7 @@ export class Negociacaocontroller {
             return negociacoesDeHoje.filter(negociacoesDeHoje => {
                 return !this.negociacoes
                     .lista()
-                    .some(negociacao => negociacao.ehIgual(negociacoesDeHoje))
+                    .some(negociacao => negociacao.ehigual(negociacoesDeHoje))
             });
         })
 
